@@ -9,7 +9,7 @@ function App() {
       <h1>Hello World</h1>
       <Welcome name='Zaza' />
       <Carre />
-      <Addition nb1='1' nb2={2} />
+      <Addition nb1={1} nb2={2} />
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.title {
+    font-size: 2rem;
+    color: hotpink;
+    font-family: 'Comic sans MS';
+}
+
+.person {
+    font-style: italic;
+    text-shadow: 3px 2px 2px chartreuse;
+}

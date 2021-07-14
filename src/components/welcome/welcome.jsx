@@ -1,3 +1,4 @@
+import style from './welcome.module.css';
 
 const Welcome = (props) => {
     // Récuperation du name du parametre d'entré
@@ -5,8 +6,8 @@ const Welcome = (props) => {
 
     // Renvoie du JSX
     return (
-        <div>
-            Welcome {name} !
+        <div className={style.title}>
+            Welcome <span className={style.person}>{name}</span> !
         </div>
     );
 }
