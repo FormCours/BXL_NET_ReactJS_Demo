@@ -1,0 +1,12 @@
+.peopleTable, .peopleTable td, .peopleTable th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.peopleTable thead {
+    background-color: pink;
+}
+
+.peopleTable td, .peopleTable th {
+    width: 100px;
+}
